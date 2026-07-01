@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Adds the experimental Strata weather-emulation models —
+  `physicsnemo.experimental.models.strata.Strata` and `StrataTransformer3D` — plus
+  the continuous / stereographic RoPE helpers `build_rope_cos_sin_1d_continuous`,
+  `build_axial_rope_cos_sin_2d_continuous`, `stereographic_projection`, and
+  `spherical_centroid` in `physicsnemo.experimental.nn`.
 - Adds Point-Transformer local vector-attention blocks to `physicsnemo.nn`.
 - Adds an `is_causal` option to `TimmSelfAttention` in `physicsnemo.nn` for
   causal self-attention.
